@@ -18,3 +18,20 @@ while(i<11):
    print(f"{n} x {i} = {n*i}")
    i +=1
    
+#4
+n =  int(input("enter: "))
+for i in range(2, n):
+    if(n%i) == 0:
+         print("not prime")
+         break
+else:
+  print("prime")
+
+#5
+n= int(input(""))
+p = 1
+for i in range(1, n+1):
+   p = p * i
+print(p)
+
+#6
