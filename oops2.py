@@ -32,3 +32,17 @@ class toyata(car):
         super().start()
 car1 = toyata("fortuner","ele")
 print(car1.type)
+
+#3
+class person :
+    name = "anamoyus"
+    @classmethod
+    def changeName(cls, name):
+        cls.name = name 
+p1 = person()
+p1.changeName("ranul")
+print(p1.name)
+print(person.name)
+
+#4
+
